@@ -38,7 +38,7 @@ public class Peer {
 		for (int l = 0; ; ) {
 			int t = receiveData(nbytes, client);
 			if (t == -1) {
-				System.out.printf"%d bytes received!\n", l);
+				System.out.printf("%d bytes received!\n", l);
 				break;
 			}
 			l += t;
